@@ -1,2 +1,9 @@
 **/target/
 .vscode/
+*.gz
+*.aux
+*.log
+*.fls
+*.fdb_latexmk
+*.tex
+*.pdf
