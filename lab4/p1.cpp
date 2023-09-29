@@ -70,11 +70,9 @@ void skriv_histogram_abs(int freq[], int total)
   cout << "Histogram:" << endl;
   for (int i = 0; i < ANTAL_BOKSTAVER; i++)
   {
-    if (freq[i] > 0)
-    {
-      // 65 is ASCII value of 'A'
-      cout << (char)(i + 65) << ": " << freq[i] << endl;
-    }
+
+    // 65 is ASCII value of 'A'
+    cout << (char)(i + 65) << ": " << freq[i] << endl;
   }
 }
 // Redovisning av uppgiften i ord.
